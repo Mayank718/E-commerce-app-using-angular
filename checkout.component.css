@@ -1,0 +1,28 @@
+.checkout h1 {
+    text-align: center;
+    color: blueviolet;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.checkout h3 {
+    text-align: center;
+    color: blueviolet;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkout {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
+.shipping-address {
+    border: 2px solid rgb(203, 77, 216);
+    background-color: rgb(176, 128, 220);
+    box-shadow: 10px 10px rgb(190, 190, 244);
+    width: 40%;
+    margin: 30px;
+    padding: 10px;
+}

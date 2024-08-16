@@ -1,0 +1,30 @@
+.my-orders {
+    margin-bottom: 100px;
+}
+
+.my-orders h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.my-orders .order-img {
+    /* width: 100%; */
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.order-data {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.data {
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin: 5px;
+}

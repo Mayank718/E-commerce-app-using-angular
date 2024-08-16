@@ -1,0 +1,28 @@
+.sign-up, .login {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.auth-toggle-link {
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(6, 5, 6);
+    text-align: center;
+}
+
+.seller-auth {
+    border: 2px solid rgb(203, 77, 216);
+    background-color: rgb(176, 128, 220);
+    box-shadow: 10px 10px rgb(190, 190, 244);
+    margin-left: 330px;
+    margin-top: 50px;
+    padding: 10px;
+    width: 50%;
+}
+
+.seller-auth h2 {
+    padding: 20px;
+}

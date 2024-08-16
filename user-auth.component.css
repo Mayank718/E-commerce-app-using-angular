@@ -1,0 +1,30 @@
+.user-auth h2 {
+    margin-top: 30px;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: blueviolet;
+}
+
+.user-auth {
+    margin: 150px;
+    margin-left: 330px;
+    margin-top: 50px;
+    border: 2px solid rgb(203, 77, 216);
+    background-color: rgb(176, 128, 220);
+    width: 50%;
+    box-shadow: 10px 10px rgb(190, 190, 244);
+}
+
+.common-form a {
+    cursor: pointer;
+    color: rgb(83, 53, 192);
+}
+
+/* margin-bottom: 20px;
+    padding-left: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.1); */

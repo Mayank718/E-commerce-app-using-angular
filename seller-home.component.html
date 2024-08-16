@@ -1,0 +1,63 @@
+<!-- <div class="product-list">
+    <h2>Product List</h2>
+    <p class="message-p">{{productMessage}}</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Color</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of productList">
+                <td><img src="{{item.image}}"></td>
+                <td>{{item.name}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.color}}</td>
+                <td>{{item.category}}</td>
+                <td>{{item.description}}</td>
+                <td><fa-icon [icon]="icon" (click)="deleteProduct(item.id)"></fa-icon>
+                <a class="adjust-update-link" routerLink="/seller-update-product/{{item.id}}"><fa-icon [icon]="editIcon"></fa-icon></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div> -->
+
+<div class="product-list">
+    <h1 class="text-center heading">All Products</h1>
+    <p class="message-p">{{productMessage}}</p>
+    <div class="row">
+        <ul>
+            <li *ngFor="let item of productList">
+                <a routerLink="/product-details/{{item.id}}"><img src="{{item.image}}" /></a>
+                <div class="content">
+                    <div class="product-details">
+                        <h5 class="name-head">{{item.name | titlecase}}</h5>
+                    </div>
+                    <div class="product-price">
+                        <h6>Price: ₹ {{item.price}}</h6>
+                    </div>
+                    <div class="product-color">
+                        <h6>Col: {{item.color}}</h6>
+                        <h6>Cate: {{item.category}}</h6>
+                    </div>
+                    <div class="product-category">
+                    </div>
+                    <div class="description">
+                        <span><small>{{item.description}}</small></span>
+                    </div>
+                    <div class="action">
+                        <fa-icon (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
+                        <a class="adjust-update-link" routerLink="/seller-update-product/{{item.id}}"><fa-icon [icon]="editIcon"></fa-icon></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
